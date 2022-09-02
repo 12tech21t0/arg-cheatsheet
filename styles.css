@@ -15,6 +15,13 @@
 body {
     width: 100vw;
     background-color: #1F2937;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 .text-secondary {
@@ -25,24 +32,43 @@ body {
 
 .container {
     display: flex;
-    padding: 0 1rem;
+    height: 100%;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-column {
+    flex-flow: column nowrap;
+}
+
+.justify-space-between {
+    justify-content: space-around;
+}
+
+.content {
+    height: 25rem;
+    padding: 5rem 0;
 }
 
 #main {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
     flex-flow: column nowrap;
+    gap: 3rem;
 }
 
 #navbar {
-    height: 4rem;
+    height: 5rem;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-}
-
-#navbar>div {
-    padding: 0 1rem;
 }
 
 #header-logo {
@@ -53,9 +79,23 @@ body {
 
 #nav-links {
     gap: 2rem;
+    align-items: center;
+}
+
+#logo-img {
+    object-fit: contain;
+    flex: 0 1 auto;
+    height: 100%;
+    margin: 0 3rem;
 }
 
 @media only screen and (min-width: 550px) {
+    :root {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 840px) {
     :root {
         font-size: 12px;
     }
