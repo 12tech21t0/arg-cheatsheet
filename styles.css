@@ -30,6 +30,12 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    font-size: 3rem;
+    color: #e5e7eb;
+    font-weight: 900;
+}
+
 .text-secondary {
     font-size: 1.5rem;
     color: #e5e7eb;
@@ -156,6 +162,28 @@ h2 {
     font-weight: 700;
 }
 
+#content-4 {
+    background-color: #F9FAF8;
+    height: 25rem;
+    font-size: 1.5rem;
+}
+
+#cta {
+    background-color: #3882f6;
+    height: 20ch;
+    border-radius: 0.5em;
+    padding: 0 2rem;
+    width: 100%;
+    color: #e5e7eb;
+}
+
+#cta-button {
+    border: 0.2rem #F9FAF8 solid;
+    width: 15ch;
+    height: 5ch;
+    margin-left: 3rem;
+}
+
 @media only screen and (min-width: 610px) {
     :root {
         font-size: 9px;
@@ -163,6 +191,10 @@ h2 {
 
     .content {
         padding: 6rem 4rem;
+    }
+
+    #cta {
+        padding: 0 4rem;
     }
 }
 
@@ -173,5 +205,10 @@ h2 {
 
     .content {
         padding: 6rem 8rem;
+    }
+
+
+    #cta {
+        padding: 0 6rem;
     }
 }
