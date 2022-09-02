@@ -48,12 +48,22 @@ h1 {
 }
 
 .justify-space-between {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .content {
     height: 25rem;
     padding: 5rem 0;
+}
+
+
+.play-button {
+    width: 10ch;
+    height: 4ch;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 0.5em;
+    border: none;
 }
 
 #main {
