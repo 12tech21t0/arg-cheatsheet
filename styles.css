@@ -8,7 +8,7 @@
 }
 
 :root {
-    font-size: 12px;
+    font-size: 6px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,6 +31,7 @@ body {
 #main {
     max-width: 1200px;
     margin: 0 auto;
+    flex-flow: column nowrap;
 }
 
 #navbar {
@@ -52,4 +53,10 @@ body {
 
 #nav-links {
     gap: 2rem;
+}
+
+@media only screen and (min-width: 550px) {
+    :root {
+        font-size: 12px;
+    }
 }
