@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-size: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 :root {
@@ -182,6 +184,12 @@ h3 {
     width: 15ch;
     height: 5ch;
     margin-left: 3rem;
+}
+
+#footer {
+    height: 4rem;
+    color: #e5e7eb;
+    font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 610px) {
