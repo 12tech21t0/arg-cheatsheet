@@ -78,7 +78,6 @@ h3 {
     padding: 6rem 2rem;
 }
 
-
 .play-button {
     width: 10ch;
     height: 4ch;
@@ -104,6 +103,7 @@ h3 {
     flex-flow: column nowrap;
 }
 
+/* NAVBAR STYLES */
 #navbar {
     height: 5rem;
     width: 100%;
@@ -123,6 +123,7 @@ h3 {
     align-items: center;
 }
 
+/* SECTION-1 STYLES*/
 #logo-img {
     object-fit: contain;
     flex: 0 1 auto;
@@ -130,6 +131,7 @@ h3 {
     margin: 0 3rem;
 }
 
+/* SECTION-2 STYLES*/
 #content-2 {
     background-color: #f9faf8;
 }
@@ -146,6 +148,7 @@ h3 {
     width: 100%;
 }
 
+/* SECTION-3 STYLES*/
 #content-3 {
     background-color: #e5e7eb;
 }
@@ -164,6 +167,7 @@ h3 {
     font-weight: 700;
 }
 
+/* SECTION-4 STYLES*/
 #content-4 {
     background-color: #F9FAF8;
     height: 25rem;
@@ -186,6 +190,7 @@ h3 {
     margin-left: 3rem;
 }
 
+/* FOOTER STYLES*/
 #footer {
     height: 4rem;
     color: #e5e7eb;
